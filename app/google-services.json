@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401551981877",
+    "firebase_url": "https://unidastudent-30947.firebaseio.com",
+    "project_id": "unidastudent-30947",
+    "storage_bucket": "unidastudent-30947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401551981877:android:6f31e75c6a85a980",
+        "android_client_info": {
+          "package_name": "id.ac.gontor.unida.ti.unidastudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401551981877-bsbl60shh8epcg9n8r09utkjfc7n24nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHhE5ACCx5_YNF1pf0-D1N3eDDsaGsAt4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

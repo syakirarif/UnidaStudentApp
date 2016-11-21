@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Beranda"
+            android:id="@+id/nav_home" />
+        <item
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Berita UNIDA"
+            android:id="@+id/nav_berita" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Event" />
+        <item
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video"
+            android:id="@+id/nav_video" />
+
+    </group>
+
+    <item android:title="Dewan Mahasiswa (DEMA)">
+    <menu>
+        <item
+            android:id="@+id/nav_demapusat"
+            android:icon="@drawable/ic_menu_share"
+            android:title="DEMA Pusat" />
+        <item
+            android:id="@+id/nav_demawilayah"
+            android:icon="@drawable/ic_menu_share"
+            android:title="DEMA Wilayah" />
+    </menu>
+</item>
+
+    <item android:title="Himpunan Mahasiswa">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="HIMATIF"
+                android:id="@+id/nav_himatif" />
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="HIMAKOM"
+                android:id="@+id/nav_himakom" />
+            <item
+                android:id="@+id/nav_HIU"
+                android:icon="@drawable/ic_menu_send"
+                android:title="HIU" />
+        </menu>
+    </item>
+
+    <item android:title="Unit Kegiatan Mahasiswa (UKM)">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ilmu dan Rohani"
+                android:id="@+id/nav_ilmuRohani" />
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Olahraga"
+                android:id="@+id/nav_olahraga" />
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Kesenian"
+                android:id="@+id/nav_kesenian" />
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Minat Khusus"
+                android:id="@+id/nav_MinatKhusus" />
+        </menu>
+    </item>
+
+    <item android:title="">
+    <menu>
+    <item
+        android:id="@+id/nav_tentang"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Tentang Aplikasi" />
+        </menu>
+    </item>
+
+</menu>
