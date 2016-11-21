@@ -47,6 +47,8 @@ public class MenuUtama extends AppCompatActivity
      */
     private GoogleApiClient client;
 
+    //Perubahan ada disini
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
